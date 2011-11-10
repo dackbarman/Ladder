@@ -2,6 +2,8 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+// 사다리 게임!
+
 class Draw extends JPanel {
 	protected Image img = null;
 	protected Graphics gImg = null;
