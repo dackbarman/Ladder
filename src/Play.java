@@ -1,6 +1,6 @@
 import java.awt.Color;
 import java.awt.Dimension;
-//아아아아앙아앙앙
+
 class Play extends Thread{
 	private int[][] ladderMap;
 	private int player, ladderWidth, ladderHeight;
@@ -8,7 +8,7 @@ class Play extends Thread{
 	private int x,y;
 	int curPlayer;
 	
-	//실험
+
 	
 	private Draw draw;
 	
@@ -19,7 +19,7 @@ class Play extends Thread{
 		this.ladderHeight = ladderMap.length;
 		this.player = ladderMap[0].length;
 		this.frameSize = Ladder.frameSize;
-		//this.frameSize = Ladder.frameSize;
+
 		
 		this.curPlayer = curPlayer;
 	}
