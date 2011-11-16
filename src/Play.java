@@ -19,6 +19,7 @@ class Play extends Thread{
 		this.ladderHeight = ladderMap.length;
 		this.player = ladderMap[0].length;
 		this.frameSize = Ladder.frameSize;
+		//this.frameSize = Ladder.frameSize;
 		
 		this.curPlayer = curPlayer;
 	}
