@@ -1,5 +1,6 @@
 import java.awt.Color;
 import java.awt.Dimension;
+//아아아아아아앙//
 
 class Play extends Thread{
 	private int[][] ladderMap;
