@@ -8,6 +8,8 @@ class Play extends Thread{
 	private int x,y;
 	int curPlayer;
 	
+	//실험
+	
 	private Draw draw;
 	
 	Play(Draw draw, int curPlayer){
@@ -17,6 +19,7 @@ class Play extends Thread{
 		this.ladderHeight = ladderMap.length;
 		this.player = ladderMap[0].length;
 		this.frameSize = Ladder.frameSize;
+		//this.frameSize = Ladder.frameSize;
 		
 		this.curPlayer = curPlayer;
 	}
