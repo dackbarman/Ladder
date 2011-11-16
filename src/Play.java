@@ -8,6 +8,8 @@ class Play extends Thread{
 	private int x,y;
 	int curPlayer;
 	
+	//실험
+	
 	private Draw draw;
 	
 	Play(Draw draw, int curPlayer){
