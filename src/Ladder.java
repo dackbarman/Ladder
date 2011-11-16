@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-// 사다리 게임!dddddd
+// 윤복아안녕?
 
 class Draw extends JPanel {
 	protected Image img = null;
